@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+}
+html,body{
+    width: 100%;
+    height: 100vh;
+    scroll-behavior: smooth;
+    left: 0PX;
+    position: relative;
+   
+}
+.logo img{
+    width: 135px;
+    height:23vh;
+    border-bottom:
+    1px solid black;
+
+}
+.nav-part2{
+    display:flex;
+    align-items: center;
+    gap: 1vw;
+
+    border-radius: 50px;
+}
+.nav-part2 h4{
+     padding: 10px 20px;
+     border: 1px solid #8a8a8a89;
+     border-radius: 50px;
+     font-size: 15px;
+     font-weight: 500;
+     position:relative;
+     transition: all ease 0.4s;
+     color: rgb(109, 109, 109);
+     overflow: hidden;
+     font-family: poppins;
+     background-color: #000000;
+}
+.nav-part2 h4::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left:0;
+    background-color: rgb(255, 255, 255);
+    bottom: -100%;
+    border-radius: 50%;
+    transition: all ease 0.3s;
+}
+.nav-part2 h4:hover::after{
+    
+    bottom: 0%;
+    border-radius:0;
+    color: #000000;
+}
+.nav-part2 h4 a{
+ text-decoration:none;
+ color: #ffffff;
+ position: relative;
+ z-index: 9;
+}
+.nav-part2 h4:hover a{
+    color: #000000;
+}
+nav {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    top: -109px;
+    left: -85px;
+}
+.bg img {
+    position: relative;
+    height: 84vh;
+    width: 1100px;
+    top:-93px;
+
+}
+.textbd {
+    position: relative;
+    top: -210px;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 33px;
+}
+
+.text2 {
+    position: fixed;
+    color: white;
+    font-family: poppins;
+}
+.logo.default_cursor_cs {
+    margin-top: -34px;
+}
+.text2 h2 {
+    font-size: 50px;
+    margin-top: -178px;
+}
+.logo img {
+    margin-top: 6px;
+}
+.text h1 {
+    position: relative;
+    z-index: 2;
+    color: white;
+    top: -669px;
+    left: 63%;
+    font-family: poppins;
+    width: 388px;
+}
+.text h1 {
+   
+}
+.abouttext h1 {
+    text-align: center;
+    margin-top: 106px;
+}
+img.about.default_cursor_cs {
+    width: 435px;
+    position: absolute;
+    left: 37px;
+}
+
+h1.default_cursor_cs {
+    top: 43px;
+    position: relative;
+    left: 68px;
+}
+.abouttext h1::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 3px;
+    width: 0%;
+    border-bottom: 3px solid black;
+    left: 42%;
+    transition: all ease 1s;
+}
+.rajuahmedimg img {
+    width: 34%;
+    height: 60vh;
+    position: relative;
+    z-index: 1;
+    left: 324px;
+    top: -549px;
+    border-radius: 50%;
+}
+h1:hover::after{
+    width: 17%;
+    animation: infinite;
+}
+span.default_cursor_cs {
+    top: 146%;
+    position: absolute;
+    width: 411px;
+    left: 534px;
+}
+
+.ourser h1 {
+    left: 39%;
+    position: relative;
+}
+
+.ourser p {margin-left: 640px;margin-top: 21px;position: relative;top: 37px;}
+.our {
+    margin-top: 308px;
+}
+.ourimg img {
+    width: 541px;
+    margin-top: -209px;
+    height: 268px;
+    margin-left: 18px;
+}
+.sign img {
+    left: 655px;
+    top: -1049px;
+    border-radius: 90px;
+    width: 200px;
+    background-color: white;
+    position: relative;
+}
+.textbd h2 {
+    margin-top: -654px;
+}
+@media screen and (max-width: 990px) {
+    /* CSS rules for screens up to 990 pixels wide */
+    html,body{
+        width: 100%;
+        height: 100vh;
+        scroll-behavior: smooth;
+        overflow-x: hdden;
+        margin-left: -2px;
+    }
+.nav-part2 h4 {
+    padding: 6px;
+    position: relative;
+    top: -28px;
+    left: 75px;
+}
+img.dip {
+    position: relative;
+    top: -34px;
+    left: -8px;
+}
+    .rajuahmedimg img {
+        width: 350px;
+        position: relative;
+        left: 26px;
+        top: -592px;
+    }
+.textbd h2 {
+    margin-top: 155px;
+    margin-left: 27px;
+}
+.text h1{
+    display: none;
+}
+.about {
+    position: relative;
+    top: -1479px;
+}
+img.about {
+    width: 400px;
+    margin-top: -309px;
+}
+
+img.rajuahmedsign {
+    margin-left: -578px;
+    margin-top: -470px;
+}
+.about {
+    top: 690px;
+    position: absolute;
+}
+footer{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footerLeft{
+    padding: 20px;
+    width: 90%;
+  }
+
+  .footerRight{
+    padding: 20px;
+    width: 90%;
+    align-items: center;
+    background-color: whitesmoke;
+  }
+  .abouttext span {
+    font-size: 15px;
+    position: relative;
+    left: 9px;
+}
+main {
+    margin-top: -697px;
+}
+.ourser h1 {
+    margin-bottom: 595px;
+}
+.ourimg {
+    position: relative;
+    top: -340px;
+    left: -93px;
+}
+.our h1 {
+    position: relative;
+    top: 275px;
+    left: 79px;
+}
+.ourser p {
+    margin-left: 10px;
+}
+.footerMenu {
+    margin: 14px;
+}
+}
+
+
+
+
+
+
+
+
+footer {
+    display: flex;
+  }
+  
+  .footerLeft {
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+  }
+  
+  .fMenuTitle {
+    font-size: 16px;
+  }
+  
+  .fList {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .fListItem {
+    margin-bottom: 10px;
+    color: gray;
+    cursor: pointer;
+  }
+  
+  .footerRight {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .fInput {
+    padding: 5px;
+  }
+  
+  .fButton {
+    padding: 5px;
+    background-color: black;
+    color: white;
+  }
+  
+  .fIcons{
+    display: flex;
+  }
+  
+  .fIcon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .copyright{
+    font-weight: 300;
+    font-size: 14px;
+  }
